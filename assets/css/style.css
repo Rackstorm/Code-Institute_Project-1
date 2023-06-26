@@ -200,3 +200,39 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
+footer {
+    display: block;
+    box-sizing: border-box;
+    height: 150px;
+    background-color: #252525;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+    text-decoration: none;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1px;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos>img {
+    width: 100%;
+}
