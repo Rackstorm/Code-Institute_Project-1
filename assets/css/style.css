@@ -11,3 +11,94 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    text-shadow: 1px 1px darkslategray;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("/images/TEKA0017407.jpg") no-repeat center center;
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+    font-weight: 100;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    border-radius: 10%;
+
+    background-color: rgba(127, 113, 113, 0.7);
+
+    bottom: 250px;
+    right: 150px;
+
+    position: absolute;
+}
