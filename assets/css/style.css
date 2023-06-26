@@ -79,8 +79,10 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("/images/TEKA0017407.jpg") no-repeat center center;
+    background: url("/assets/images/TEKA0017407.jpg") no-repeat center center;
 }
+
+/* quote in the header  */
 
 #cover-text {
     font-size: 100%;
@@ -102,6 +104,8 @@ h2 {
 
     position: absolute;
 }
+
+/* styling headings and paragraphs */
 
 #left-about {
     padding-top: 30px;
@@ -153,11 +157,15 @@ hr {
     text-align: right;
 }
 
+/*heading in header  */
+
 #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
+
+/* images */
 
 #circle-container {
     width: 300px;
@@ -174,31 +182,6 @@ hr {
     background: url("/images/polarbear.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
-}
-
-#times {
-    background: url("/images/balloon1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#times div {
-    color: #fafafa;
-    background-color: rgba(0, 0, 0, .6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-
-#times h2 {
-    color: #fafafa;
 }
 
 footer {
@@ -235,4 +218,95 @@ footer {
 
 #photos>img {
     width: 100%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+
+    }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screen sizes */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
