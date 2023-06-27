@@ -15,8 +15,10 @@ body {
 
 #main {
     margin: 0 auto;
+    position: relative;
     display: block;
     box-sizing: border-box;
+    overflow: auto;
 }
 
 /* headings and logo */
@@ -186,26 +188,18 @@ hr {
 }
 
 footer {
+    bottom: 0px;
     display: block;
     box-sizing: border-box;
     height: 150px;
     background-color: #ccc;
+    position: relative;
 }
 
-.social-networks {
+footer p {
+    font-size: 1em;
     text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-    text-decoration: none;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1px;
-    padding: 5%;
-    color: #3a3a3a;
+    color: #252525;
 }
 
 /* gallery */
@@ -275,12 +269,6 @@ footer {
 
     #cover-text {
         left: 0;
-    }
-
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
     }
 
     .left-about-heading,
