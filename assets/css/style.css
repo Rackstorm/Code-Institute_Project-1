@@ -183,7 +183,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("images/polarbear.jpg") no-repeat center center;
+    background: url("../images/polarbear.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
