@@ -7,9 +7,16 @@
 }
 
 body {
+    background: #252525;
     font-family: Roboto, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #ccc;
+}
+
+#main {
+    margin: 0 auto;
+    display: block;
+    box-sizing: border-box;
 }
 
 /* headings and logo */
@@ -19,46 +26,40 @@ h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
-    text-shadow: 1px 1px darkslategray;
+    color: #ccc;
+    text-shadow: 1px 1px slategray;
 }
 
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
+    position: relative;
 }
 
 /* navigation links */
 
-#menu {
-    font-size: 110%;
-    text-transform: uppercase;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
+ul {
     list-style-type: none;
-    margin-right: 30px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-#menu a {
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
     text-decoration: none;
-    color: inherit;
 }
 
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-    text-decoration: none;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
+li a:hover {
+    background-color: #111;
 }
 
 /* hero image */
@@ -159,7 +160,7 @@ hr {
 
 /*heading in header  */
 
-#welcome {
+#main-heading {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -179,7 +180,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url("/images/polarbear.jpg") no-repeat center center;
+    background: url("/assets/images/polarbear.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -188,7 +189,7 @@ footer {
     display: block;
     box-sizing: border-box;
     height: 150px;
-    background-color: #252525;
+    background-color: #ccc;
 }
 
 .social-networks {
