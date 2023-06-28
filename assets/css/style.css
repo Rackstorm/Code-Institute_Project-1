@@ -47,11 +47,11 @@ ul {
     margin: 0;
     padding: 0;
     overflow: visible;
+    display: block
 }
 
 li {
     float: right;
-    overflow: visible;
 }
 
 li a {
@@ -279,10 +279,11 @@ div.desc {
 
     #nav {
         clear: left;
-        float: center;
+        float: right;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        display: block;
     }
 
     #cover-text {
@@ -338,6 +339,25 @@ div.desc {
     .responsive {
         width: 100%;
     }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
 }
 
 .clearfix:after {
