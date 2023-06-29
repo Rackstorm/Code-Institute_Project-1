@@ -66,9 +66,21 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 
 # Credits
 
-1. All forms of informative text about the expedition come from Wikipedia.org - both Swedish and English page about Andrée - Polar Expeditionen.
+1. All informative text about the expedition come from Wikipedia.org - both Swedish and English page about the Arctic Balloon Expedition.
+
+**Images:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
+**Text:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
+
 2. CSS styling of headings, paragraphs and the image in the center comes from the Love Running project, as does the hero image code.
+
 3. Code for gallery and nav bar were taken from W3schools with own modification.
+   **Nav Bar:** https://www.w3schools.com/css/css_navbar.asp
+   **Gallery:** https://www.w3schools.com/css/css_image_gallery.asp
+
 4. Images for the gallery were taken from Wikipedia, the Swedish National Archives and a Polish history page.
-5. The icons in the footer were taken from Font Awesome.
-6. The font was taken from Font Awesome.
+   **Wikipedia:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
+   **History page:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
+   **Swedish Digital Museum:** https://digitaltmuseum.se/
+
+5. The icons in the footer were taken from Font Awesome. https://fontawesome.com/
+6. The font was taken from Font Awesome. https://fontawesome.com/

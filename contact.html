@@ -9,10 +9,12 @@
 
     <title>Code Institute - Project 1 - The Balloon Expedition</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
 <body>
 
+    <!-- Header with logo and navigation bar -->
     <header>
 
 
@@ -22,20 +24,19 @@
             </a>
             <ul>
                 <li>
-
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Hero image at the top -->
     <section id="hero-outer">
         <div id="hero-image"></div>
         <div id="cover-text">
@@ -45,24 +46,33 @@
         </div>
     </section>
 
+    <!-- A responsive gallery consisting 4 images -->
     <main id="main">
         <section>
             <h2 id="main-heading">Contact Us</h2>
-
-            <form action="/action_page.php" class="form">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <input type="submit" value="Submit">
-            </form>
+            <p>Any questions or feedback? Reach out!</p>
 
         </section>
+
     </main>
 
+    <!-- Footer with links/icons providing more information -->
 
     <footer>
-        <p>Icons with links to sources and galleries</p>
+        <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition" target="_blank" rel="noopener"
+            aria-label="A link to the english Wikipedia page about the expedition">
+            <i class="fa-brands fa-wikipedia-w"></i>
+        </a>
+
+        <a href="https://www.spri.cam.ac.uk/museum/news/exhibitions/2014/09/04/the-andree-expedition-the-fated-expedition/"
+            target="_blank" rel="noopener" aria-label="An article written by Cambridge University about the expedition">
+            <i class="fa-solid fa-globe"></i>
+        </a>
+
+        <a href="https://www.atlasobscura.com/articles/the-andree-balloon-crash-a-photographic-journey-through-to-most-surreal-of-arctic-disasters"
+            target="_blank" rel="noopener" aria-label="A short article and gallery with images from the expedition">
+            <i class="fa-solid fa-images"></i>
+        </a>
     </footer>
 </body>
 <!--Font awesome code-->
