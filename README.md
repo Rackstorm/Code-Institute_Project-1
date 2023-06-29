@@ -66,21 +66,13 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 
 # Credits
 
-1. All informative text about the expedition come from Wikipedia.org - both Swedish and English page about the Arctic Balloon Expedition.
-
-**Images:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
-**Text:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
+1. All informative text about the expedition come from Wikipedia.org - both Swedish and [English]([url](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition)) page about the Arctic Balloon Expedition. Most of the images are taken from [this Polish history website]([url](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm))
 
 2. CSS styling of headings, paragraphs and the image in the center comes from the Love Running project, as does the hero image code.
 
-3. Code for gallery and nav bar were taken from W3schools with own modification.
-   **Nav Bar:** https://www.w3schools.com/css/css_navbar.asp
-   **Gallery:** https://www.w3schools.com/css/css_image_gallery.asp
+3. Code for the [image gallery]([url](https://www.w3schools.com/css/css_image_gallery.asp)) and [nav bar]([url](https://www.w3schools.com/css/css_navbar.asp)) were taken from W3schools with own modification.
 
-4. Images for the gallery were taken from Wikipedia, the Swedish National Archives and a Polish history page.
-   **Wikipedia:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
-   **History page:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
-   **Swedish Digital Museum:** https://digitaltmuseum.se/
+4. Images for the gallery were taken from [Wikipedia](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Museum](https://digitaltmuseum.se/) and a [Polish history page]([url](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm))
 
-5. The icons in the footer were taken from Font Awesome. https://fontawesome.com/
-6. The font was taken from Font Awesome. https://fontawesome.com/
+5. The icons in the footer were taken from [Font Awesome]([url](https://fontawesome.com/)
+6. The font was taken from Font Awesome. [Font Awesome]([url](https://fontawesome.com/)
