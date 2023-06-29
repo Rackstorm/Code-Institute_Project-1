@@ -239,8 +239,7 @@ footer {
 footer p {
     font-size: 1em;
     text-align: center;
-    color: #252525;
-    justify-content: space-even;
+    color: #ccc;
 }
 
 /* gallery */
