@@ -229,18 +229,25 @@ hr {
 
 footer {
     bottom: 0px;
-    display: block;
-    box-sizing: border-box;
     height: 150px;
     background-color: #ccc;
     position: relative;
+    font-size: 120%;
+    padding: 50px;
+    text-align: center;
+
 }
 
-footer p {
-    font-size: 1em;
+footer>a {
+    display: inline;
     text-align: center;
-    color: #ccc;
+    font-size: 140%;
+    margin: 1%;
+    padding: 2%;
+    color: #3a3a3a;
+    text-decoration: none;
 }
+
 
 /* gallery */
 
