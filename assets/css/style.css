@@ -255,7 +255,7 @@ div.desc {
     #left-about,
     #right-about {
         width: 100%;
-        float: center;
+        margin: 0 auto;
         padding: 0;
     }
 
