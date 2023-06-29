@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -32,7 +33,7 @@ main {
 }
 
 
-/* headings and logo */
+/* styling of headings and logo */
 
 h1,
 h2,
@@ -52,7 +53,7 @@ h3 {
     position: relative;
 }
 
-/* navigation links */
+/* styling of navigation bar */
 
 ul {
     list-style-type: none;
@@ -99,7 +100,13 @@ li a:hover {
     background: url("../images/TEKA0017407.jpg") no-repeat center center;
 }
 
-/* quote in the header  */
+/* styling the quote and main heading  */
+
+#main-heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
 
 #cover-text {
     font-size: 100%;
@@ -122,7 +129,7 @@ li a:hover {
     position: absolute;
 }
 
-/* styling headings and paragraphs */
+/* styling headings and paragraphs in index with code used from Love Running project*/
 
 #left-about {
     padding-top: 30px;
@@ -174,15 +181,8 @@ hr {
     text-align: right;
 }
 
-/*heading in header  */
 
-#main-heading {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-/* images */
+/* image used on index page with code based on code from Love Running project */
 
 #circle-container {
     width: 300px;
@@ -201,7 +201,7 @@ hr {
     border-radius: 50%;
 }
 
-/* Footer */
+/* styling of footer and links */
 
 footer {
     bottom: 0px;
@@ -225,7 +225,7 @@ footer>a {
 }
 
 
-/* gallery */
+/* styling image responsive gallery with code used from W3Schools */
 
 div.gallery {
     border: 1px solid #ccc;
@@ -241,9 +241,7 @@ div.desc {
     text-align: center;
 }
 
-* {
-    box-sizing: border-box;
-}
+
 
 .responsive {
     padding: 0 6px;
@@ -253,15 +251,9 @@ div.desc {
 
 
 
-/* media queries */
+/* media queries with some parts of code used from the Love Running project */
 
 @media screen and (max-width: 1200px) {
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-
-    }
 
     #left-about,
     #right-about {
