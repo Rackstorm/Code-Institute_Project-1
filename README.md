@@ -74,5 +74,5 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 
 4. Images for the gallery were taken from [Wikipedia](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Museum](https://digitaltmuseum.se/) and a [Polish history page]([url](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm))
 
-5. The icons in the footer were taken from [Font Awesome]([url](https://fontawesome.com/)
-6. The font was taken from Font Awesome. [Font Awesome]([url](https://fontawesome.com/)
+5. The icons in the footer were taken from [Font Awesome]([url](https://fontawesome.com)
+6. The font was taken from Font Awesome. [Font Awesome]([url](https://fontawesome.com)
