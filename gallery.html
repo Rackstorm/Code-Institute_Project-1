@@ -9,11 +9,14 @@
 
     <title>Code Institute - Project 1 - The Balloon Expedition</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 
 <body>
 
+    <!-- Header with logo and navigation bar -->
     <header>
+
 
         <nav>
             <a href="index.html">
@@ -24,17 +27,19 @@
 
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Hero image at the top -->
     <section id="hero-outer">
         <div id="hero-image"></div>
         <div id="cover-text">
@@ -44,67 +49,75 @@
         </div>
     </section>
 
+    <!-- Main with different divs of facts -->
     <main id="main">
         <section>
-            <h2 id="main-heading">Gallery</h2>
+            <h2 id="main-heading">The Race to the North Pole</h2>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="assets/images/balloon1.jpg">
+                        <img src="assets/images/balloon1.jpg" alt="The famous image of the balloon crash landing."
+                            width="600" height="400">
+                    </a>
+                    <div class="desc">The famous image of the balloon crash landing.</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="assets/images/packing.jpg">
+                        <img src="assets/images/packing.jpg"
+                            alt="The trio goes through their packing before the journey home." width="600" height="400">
+                    </a>
+                    <div class="desc">The trio goes through their packing before the journey home.</div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="assets/images/polarbear.jpg">
+                        <img src="assets/images/polarbear.jpg" alt="Andrée and Nils have shot a polar bear for dinner."
+                            width="600" height="400">
+                    </a>
+                    <div class="desc">Andrée and Nils have shot a polar bear for dinner.</div>
+                </div>
+            </div>
 
 
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="assets/images/1930.jpg">
+                        <img src="assets/images/1930.jpg"
+                            alt="Norwegians discover the camp after the adventurers 33 years later." width="600"
+                            height="400">
+                    </a>
+                    <div class="desc">Norwegians discover the camp after the adventurers 33 years later.</div>
+                </div>
+            </div>
+
+            <div class="clearfix">
+            </div>
         </section>
-
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="../images/balloon1.jpg">
-                    <img src="../images/balloon1.jpg" alt="The famous image of the balloon crash landing." width="600"
-                        height="400">
-                </a>
-                <div class="desc">The famous image of the balloon crash landing.</div>
-            </div>
-        </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="../images/packing.jpg">
-                    <img src="../images/packing.jpg" alt="The trio goes through their packing before the journey home."
-                        width="600" height="400">
-                </a>
-                <div class="desc">The trio goes through their packing before the journey home.</div>
-            </div>
-        </div>
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="../images/polarbear.jpg">
-                    <img src="../images/polarbear.jpg" alt="Andrée and Nils have shot a polar bear for dinner."
-                        width="600" height="400">
-                </a>
-                <div class="desc">Andrée and Nils have shot a polar bear for dinner.</div>
-            </div>
-        </div>
-
-
-        <div class="responsive">
-            <div class="gallery">
-                <a target="_blank" href="../images/1930.jpg">
-                    <img src="../images/1930.jpg"
-                        alt="Norwegians discover the camp after the adventurers 33 years later." width="600"
-                        height="400">
-                </a>
-                <div class="desc">Norwegians discover the camp after the adventurers 33 years later.</div>
-            </div>
-        </div>
-
-        <div class="clearfix"></div>
-
-        <div>
-            <p>For more pictures, please have a look at the sources listed in the footer below.</p>
-        </div>
 
     </main>
 
+    <!-- Footer with links/icons providing more information -->
 
     <footer>
-        <p>Icons with links to sources and galleries</p>
+        <a href="https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition" target="_blank" rel="noopener"
+            aria-label="A link to the english Wikipedia page about the expedition">
+            <i class="fa-brands fa-wikipedia-w"></i>
+        </a>
+
+        <a href="https://www.spri.cam.ac.uk/museum/news/exhibitions/2014/09/04/the-andree-expedition-the-fated-expedition/"
+            target="_blank" rel="noopener" aria-label="An article written by Cambridge University about the expedition">
+            <i class="fa-solid fa-globe"></i>
+        </a>
+
+        <a href="https://www.atlasobscura.com/articles/the-andree-balloon-crash-a-photographic-journey-through-to-most-surreal-of-arctic-disasters"
+            target="_blank" rel="noopener" aria-label="A short article and gallery with images from the expedition">
+            <i class="fa-solid fa-images"></i>
+        </a>
     </footer>
 </body>
 <!--Font awesome code-->
