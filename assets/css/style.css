@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik&display=swap');
 
+/* general styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,10 +15,9 @@ body {
     color: #ccc;
 }
 
-#main {
+main {
     margin: 0 auto;
     position: relative;
-    display: block;
     box-sizing: border-box;
     overflow: auto;
 }
