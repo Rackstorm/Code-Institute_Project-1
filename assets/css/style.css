@@ -18,9 +18,9 @@ body {
 
 main {
     margin: 0 auto;
-    position: relative;
     box-sizing: border-box;
     overflow: auto;
+    padding-bottom: 20px;
 }
 
 #section-story {
@@ -88,12 +88,6 @@ li a:hover {
     position: relative;
 }
 
-#cover-text,
-#cover-text h2 {
-    color: #fff;
-
-}
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -106,6 +100,12 @@ li a:hover {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+
 }
 
 #cover-text {
@@ -241,8 +241,6 @@ div.desc {
     text-align: center;
 }
 
-
-
 .responsive {
     padding: 0 6px;
     float: left;
@@ -286,6 +284,44 @@ div.desc {
         display: none;
     }
 }
+
+/* contact form */
+
+#contact-form {
+    font-family: Roboto, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    padding: 20px;
+    color: white;
+}
+
+/* css styling of input, select and textarea */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    font-family: Roboto, sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+/* styling the submit button */
+#contact-form button[type=submit] {
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 5px;
+}
+
 
 /* For medium screen sizes */
 @media screen and (max-width: 950px) {
