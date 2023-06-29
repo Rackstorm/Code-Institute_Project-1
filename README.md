@@ -2,38 +2,49 @@
 
 ## Summary
 
-This website is intended to provide summarized overall information about the lesser-known Swedish polar expedition in 1987. The intention is to be able to provide a simple website with sharp contrasts, short information that creates curiosity, simple navigation with few pages and a gallery with the images that were found upon discovery of expedition 33 years after the men from the expedition are presumed to have disappeared without a trace.
+This website is intended to provide summarized overall information about the lesser-known Swedish polar expedition in 1987 for those who are into odd history facts. The intention is to be able to provide a simple website with sharp contrasts, short information that creates curiosity, simple navigation with few pages and a gallery with the images that were found upon discovery of expedition 33 years after the men from the expedition are presumed to have disappeared without a trace.
 
 ### Navigation Bar
 
-The aim is to create a simple navigation with three different buttons - one leading to the index, one to the gallery and one to contact. The navigation can be found at the top right of the logo. The menu is simply constructed with a hover effect to clearly show which button you have the mouse over. All pages have the same consistent theme, which makes it easy to see that only the content changes on the page you are on. The menu also makes it easy to navigate back and forth on the pages without having to click the back button.
+The navigation can be found at the top right of the logo with links to three different pages. The menu is simply constructed with a hover effect to clearly show which button you have the mouse over.
 
-### Index - Header image
+All pages have the same consistent theme, which makes it easy to see that only the content changes on the page you are on. The menu also makes it easy to navigate back and forth on the pages without having to click the back button.
+
+### Landing page
 
 At the top we find the most famous image from the Polar Expedition - a crashed hot air balloon in black and white. The idea with the picture is to create curiosity but also to signal that this website is dedicated to something historical.
 
 ### Main
 
-In main we find content that briefly summarizes the polar expedition with headlines that gossip about the timeline of the story. The text contains general information about the idea, people and when the events took place. The headings are cast in the same narrative form to maintain a common thread.
+In main we find content that briefly summarizes the polar expedition with headlines with short information to spark interest and a timeline. The text contains general information about the idea, people and when the events took place. The headings are cast in the same narrative form to maintain a common thread.
 
-### The footer
+### The Footer
 
 In the footer we mainly find links to more detailed information such as Wikipedia, but also to various pages with more images from reliable sources. The icons are meant to arouse curiosity and give a nice visual impression. All links open in a new window.
+
+### The Expedition
+
+This page is for the user to be able to read more detailed information about the expedition in compact form. To break up long paragraphs, images are used to give a more relaxed visual impression.
 
 ### The Gallery
 
 The gallery consists of a total of four images in a responsive design. The look is meant to give a retro feel with the polaroid frame and descriptive text. The images are also lined up according to the timeline with the first images showing the beginning of the project and the last image showing how the three men were discovered 33 years later after having gone missing.
 
-The Contact page is intended to give the visitor an opportunity to send an email with feedback, questions or concerns about the website's content. The form is simple and direct.
+### Contact Form
+
+The Contact page is intended to give the user an opportunity to send an email with feedback, questions or concerns about the website's content. The form is simple and direct.
 
 # Features to implement
 
-Actually setting it up to work properly.
+1. Develop the gallery a bit more to look more creative as well as add a couple of more images.
+2. Add proper coding to the contact form.
+3.
 
 # Testing
 
-Live Server, Dev Tools and Mockup
-Throughout the entire project, I have by using the extension "Live server" and Dev tools to see how the website takes shape and how the code expresses itself, partly in different browsers but also for different screen sizes. In addition to this, I have also used Mockup to get a clearer picture of how the website looks on different devices.
+## Live Server, Dev Tools and Mockup
+
+Throughout the entire project, I have by using the extension "Live server" and Dev tools to see how the website takes shape and how the code expresses itself, partly in different browsers such as Chrome, IE Edge and Firefox, but also for different screen sizes. In addition to this, I have also used Mockup to get a clearer picture of how the website looks on different devices.
 
 ## Positioning
 
@@ -66,13 +77,21 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 
 # Credits
 
-1. All informative text about the expedition come from Wikipedia.org - both Swedish and [English]([url](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition)) page about the Arctic Balloon Expedition. Most of the images are taken from [this Polish history website]([url](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm))
+1. All informative text about the expedition come from Wikipedia.org - both Swedish and English page about the Arctic Balloon Expedition.
+
+**Images:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
+**Text:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
 
 2. CSS styling of headings, paragraphs and the image in the center comes from the Love Running project, as does the hero image code.
 
-3. Code for the [image gallery]([url](https://www.w3schools.com/css/css_image_gallery.asp)) and [nav bar]([url](https://www.w3schools.com/css/css_navbar.asp)) were taken from W3schools with own modification.
+3. Code for gallery and nav bar were taken from W3schools with own modification.
+   **Nav Bar:** https://www.w3schools.com/css/css_navbar.asp
+   **Gallery:** https://www.w3schools.com/css/css_image_gallery.asp
 
-4. Images for the gallery were taken from [Wikipedia](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Museum](https://digitaltmuseum.se/) and a [Polish history page]([url](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm))
+4. Images for the gallery were taken from Wikipedia, the Swedish National Archives and a Polish history page.
+   **Wikipedia:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
+   **History page:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
+   **Swedish Digital Museum:** https://digitaltmuseum.se/
 
-5. The icons in the footer were taken from [Font Awesome]([url](https://fontawesome.com)
-6. The font was taken from Font Awesome. [Font Awesome]([url](https://fontawesome.com)
+5. The icons in the footer were taken from Font Awesome. https://fontawesome.com/
+6. The font was taken from Font Awesome. https://fontawesome.com/
