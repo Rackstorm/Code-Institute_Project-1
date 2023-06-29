@@ -22,10 +22,21 @@ main {
     overflow: auto;
 }
 
+#section-story {
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-bottom: 15px;
+}
+
+
 /* headings and logo */
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
