@@ -77,6 +77,26 @@ The gallery consists of a total of four images in a responsive design. The look 
 3. Improve responsiveness even further.
 4. Sort out the Lighthouse issues - Cache control.
 
+# Design
+
+## Wireframes
+
+### Index Page
+
+![Index](docs/readme_images/wireframe_index.png)
+
+### The Expedition
+
+![Story](docs/readme_images/wireframe_story.png)
+
+### Gallery
+
+![Gallery](docs/readme_images/wireframe_gallery.png)
+
+### Contact
+
+![Gallery](docs/readme_images/wireframe_contact.png)
+
 # Testing
 
 - The website has been tested using the extension "Live Server" throughout the project.
@@ -108,7 +128,20 @@ No errors were returned when passing through the official [W3C validator](https:
 ![W3C Bug](docs/testing/CSS_fixed.png)
 No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frackstorm.github.io%2FCode-Institute_Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validator the second time.
 
+# Technologies
+
+- HTML is the main language of this project. CSS for styling in a separate file.
+- The IDE used has been Codeanywhere with Code Institutes template.
+- Git has been used to regularly adding, committing and pushing code to GitHub.
+- All code and assets have been stored at GitHub.
+- The project has been deployed through Git Pages.
+- Favicon Generator has been used for the Favicons.
+- Icon8 has been used for downloading the free favicon image.
+- Wireframes have been designed in Axure.
+
 # Deployment
+
+## Setting it up
 
 I have used Code Institute's instructional video on how to deploy my website. I have paused the video and followed the instructions.
 
@@ -119,16 +152,25 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 4. The live link can be found here - https://rackstorm.github.io/Code-Institute_Project-1/
 
+## Adding, committing and pushing code
+
+- All code has been pushed to the repository https://github.com/Rackstorm/Code-Institute_Project-1
+- All code has been regurlary added, committed and pushed throughout the project.
+- The commands being used are `git add <file>`,
+  `git commit -m “commit message”` and
+  `git push`
+- Due to being completely brand new into this tech world, the `git commit -m “commit message”` have gradually improved throughout this project since it was difficult for me to understand the importance of good logging in the beginning.
+
 # Credits
 
 1. All informative text about the expedition come from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition) - both Swedish and English page about the Arctic Balloon Expedition.
 2. The images are from and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
 
-3. CSS styling of headings, paragraphs and the image in the center comes from the [Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode, as does the hero image code.
+3. CSS styling of headings, paragraphs and the image in the center comes from the [Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode), as does the hero image code.
 
 4. Code for [gallery](https://www.w3schools.com/css/css_image_gallery.asp) and [nav bar](https://www.w3schools.com/css/css_navbar.asp) were taken from W3schools with own modification.
 
-5. Images for the gallery were taken from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Musejm](https://digitaltmuseum.se/) and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
+5. Images for the gallery were taken from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Museum](https://digitaltmuseum.se/) and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
 
 6. The icons in the footer were taken from [Font Awesome](https://fontawesome.com).
 7. The font was taken from Font Awesome. [Font Awesome](https://fontawesome.com)
