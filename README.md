@@ -32,7 +32,9 @@ All pages have the same consistent theme, which makes it easy to see that only t
 
 ## The Footer
 
-In the footer we mainly find links to more detailed information such as Wikipedia, but also to various pages with more images from reliable sources. The icons are meant to arouse curiosity and give a nice visual impression. All links open in a new window.
+- Links to more detailed information pages such as Wikipedia, but also to various pages with more images from reliable sources.
+- The icons are meant to arouse curiosity and give a nice visual impression.
+- All links open in a new window.
 
 ![Footer](docs/readme_images/footer.png)
 
@@ -58,11 +60,13 @@ The gallery consists of a total of four images in a responsive design. The look 
 
 ## Contact Form
 
-The Contact page is intended to give the user an opportunity to send an email with feedback, questions or concerns about the website's content. The form is simple and direct.
+- The Contact page is intended to give the user an opportunity to send an email with feedback, questions or concerns about the website's content.
+- Simple and direct design.
+- Contains first name, last name, email and a textarea.
+- All fields are required.
+- When submitted the user will be sent to a different page stating the message has been received.
 
 ![Contact Form](docs/readme_images/contact.png)
-
-When posting a message the user will automatically been sent to a different page stating the message has been received.
 
 ![Submit](docs/readme_images/submit.png)
 
@@ -71,6 +75,7 @@ When posting a message the user will automatically been sent to a different page
 1. Develop the CSS for the gallery and add more images.
 2. Add Javascript to the contact form.
 3. Improve responsiveness even further.
+4. Sort out the Lighthouse issues - Cache control.
 
 # Testing
 
@@ -78,40 +83,25 @@ When posting a message the user will automatically been sent to a different page
 - Dev Tools has been used to check the responsiveness in different screen sizes.
 - The project has been tested in different browsers such as Chrome, IE Edge, Firefox, Safari and Opera. The only one not being able to load the page (and completely timed out) was Opera.
 
-## Positioning
+## Bugs
 
-The problems I've had have mainly been about positioning - getting the header, headings and paragraphs where I want them and for them to work well in a responsive design. Partly, I have had to try my hand at Block and inline-block elements as well as Positioning and Display.
-
-## Images
-
-Another problem has been that the images have not been displayed correctly when I have deployed my website to GitHub. This was easily solved by changing the file name from "/assets/images/FILENAME.jpg" to "../images/FILENAME.jpg" in the code.
+- Had minor problems with positioning of different elements due to rookie mistakes. Solved by going through Code Institutes previous videos about Positioning and reading up on [W3Schools](https://w3schools.com) about 'Display', 'Positioning' and 'Margin'.
+- Had issues with GitHub not being able to show my images properly. Solved this by removing the first "/" in the file name.
+- Had issues with navigation bar disappearing when changing screen resolution. Changed 'Overflow: Hidden' to 'Overflow: Visible' instead.
+- Jigsaw showed 1 error consisting a faulty Float element. Sorted this out by changing it into 'margin: 0 auto;' instead.
+- HTML Validator showed 1 error regarding a script. Easily fixed by putting the script inside the body-tag.
 
 ## Validator Testing
 
 ### HTML - W3C validator
 
-#### First run
-
-Showed 1 simple error.
-![W3C Bug](docs/testing/W3Validator_bug.png)
-
-However, this was easily fixed by putting the script inside the body-tag.
-
 ![W3C Bug](docs/testing/W3Validator_fixed.png)
-
-No errors were returned when passing through the official W3C validator the second time.
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frackstorm.github.io%2FCode-Institute_Project-1%2F) the second time.
 
 ### CSS - Jigsaw Validator
 
-#### First run
-
-Showed 1 error consisting of a faulty Float element.
-![W3C Bug](docs/testing/CSS_bug.png)
-
-Changed it to margin: 0 auto; instead.
-
 ![W3C Bug](docs/testing/CSS_fixed.png)
-No errors were found when passing through the official (Jigsaw) validator the second time.
+No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frackstorm.github.io%2FCode-Institute_Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validator the second time.
 
 # Deployment
 
