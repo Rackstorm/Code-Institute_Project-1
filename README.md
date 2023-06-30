@@ -102,6 +102,7 @@ The gallery consists of a total of four images in a responsive design. The look 
 - The website has been tested using the extension "Live Server" throughout the project.
 - Dev Tools has been used to check the responsiveness in different screen sizes.
 - The project has been tested in different browsers such as Chrome, IE Edge, Firefox, Safari and Opera. The only one not being able to load the page (and completely timed out) was Opera.
+- The site has also been deployed to Git Pages and regurlarly been checked for errors.
 
 ## Bugs
 
@@ -113,8 +114,15 @@ The gallery consists of a total of four images in a responsive design. The look 
 
 ## Unfixed Bugs
 
-- HTML Cache Control. Lighthouse is showing errors regarding caching. Did not have the time to troubleshoot it before submission.
--
+- Lighthouse issues such as cache control ie.. Did not have time to troubleshoot them due to submission but will look into them the next update.
+
+### Navigation links, contact form and gallery
+
+- Manually tested all navigation links on every page.
+- Manually tested opening the site in different browsers.
+- Tested to skip filling in the contact form - submit button did not work until I filled in the information properly, hence the 'required' attribute is working.
+- Came to the page 'submit.html' when filling in Contact Form and clicking on Submit.
+- Gallery - all images are showing and gallery is flexible depending on screen size.
 
 ## Validator Testing
 
@@ -127,6 +135,20 @@ No errors were returned when passing through the official [W3C validator](https:
 
 ![W3C Bug](docs/testing/CSS_fixed.png)
 No errors were found when passing through the official [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frackstorm.github.io%2FCode-Institute_Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validator the second time.
+
+### Lighthouse
+
+![W3C Bug](docs/testing/lighthouse.png)
+
+- Received score 91/100.
+- Had some warnings and errors.
+
+![W3C Bug](docs/testing/lighthouse_issues.png)
+
+### Wave
+
+Site has been tested at [Wave](https://wave.webaim.org/report#/https://rackstorm.github.io/Code-Institute_Project-1/) with good results. The only alert was that there is a
+redundant link to the index.html. This because both the logo and the Home-button shares the same url.
 
 # Technologies
 
@@ -143,7 +165,7 @@ No errors were found when passing through the official [Jigsaw](https://jigsaw.w
 
 ## Setting it up
 
-I have used Code Institute's instructional video on how to deploy my website. I have paused the video and followed the instructions.
+I have used Code Institute's instructional video on how to deploy my website. I have paused the video and followed the instructions. Text and steps below are copied from Code Institutes instructions on how to deploy the site to GitHub.
 
 **The site was deployed to GitHub pages. The steps to deploy are as follows:**
 
@@ -174,3 +196,4 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 
 6. The icons in the footer were taken from [Font Awesome](https://fontawesome.com).
 7. The font was taken from Font Awesome. [Font Awesome](https://fontawesome.com)
+8. Styling of the [contact form](https://www.w3schools.com/css/css_form.asp) has been inspired by W3Schools.
