@@ -42,7 +42,7 @@ All pages have the same consistent theme, which makes it easy to see that only t
 
 ## Favicon
 
-- Used an icon from [Icon 8]](https://icons8.com/icons)
+- Used an icon from [Icon 8](https://icons8.com/icons)
 - Favicon was created through [Favicon Converter](https://favicon.io/favicon-converter/)
 - The same favicon is used throughout every single page to make it easier for the user to recognize the website if they have other tabs open.
 
@@ -91,6 +91,11 @@ The gallery consists of a total of four images in a responsive design. The look 
 - Jigsaw showed 1 error consisting a faulty Float element. Sorted this out by changing it into 'margin: 0 auto;' instead.
 - HTML Validator showed 1 error regarding a script. Easily fixed by putting the script inside the body-tag.
 
+## Unfixed Bugs
+
+- HTML Cache Control. Lighthouse is showing errors regarding caching. Did not have the time to troubleshoot it before submission.
+-
+
 ## Validator Testing
 
 ### HTML - W3C validator
@@ -116,21 +121,14 @@ I have used Code Institute's instructional video on how to deploy my website. I 
 
 # Credits
 
-1. All informative text about the expedition come from Wikipedia.org - both Swedish and English page about the Arctic Balloon Expedition.
+1. All informative text about the expedition come from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition) - both Swedish and English page about the Arctic Balloon Expedition.
+2. The images are from and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
 
-**Images:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
-**Text:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
+3. CSS styling of headings, paragraphs and the image in the center comes from the [Love Running project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode, as does the hero image code.
 
-2. CSS styling of headings, paragraphs and the image in the center comes from the Love Running project, as does the hero image code.
+4. Code for [gallery](https://www.w3schools.com/css/css_image_gallery.asp) and [nav bar](https://www.w3schools.com/css/css_navbar.asp) were taken from W3schools with own modification.
 
-3. Code for gallery and nav bar were taken from W3schools with own modification.
-   **Nav Bar:** https://www.w3schools.com/css/css_navbar.asp
-   **Gallery:** https://www.w3schools.com/css/css_image_gallery.asp
+5. Images for the gallery were taken from [Wikipedia.org](https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition), the [Swedish Digital Musejm](https://digitaltmuseum.se/) and a [Polish History website](https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm)
 
-4. Images for the gallery were taken from Wikipedia, the Swedish National Archives and a Polish history page.
-   **Wikipedia:** https://en.wikipedia.org/wiki/Andr%C3%A9e%27s_Arctic_balloon_expedition
-   **History page:** https://web.archive.org/web/20070930154931/http://www.zwoje-scrolls.com/zwoje41/text08p.htm
-   **Swedish Digital Museum:** https://digitaltmuseum.se/
-
-5. The icons in the footer were taken from Font Awesome. https://fontawesome.com/
-6. The font was taken from Font Awesome. https://fontawesome.com/
+6. The icons in the footer were taken from [Font Awesome](https://fontawesome.com).
+7. The font was taken from Font Awesome. [Font Awesome](https://fontawesome.com)
