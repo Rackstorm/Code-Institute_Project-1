@@ -32,12 +32,6 @@ main {
     padding-bottom: 15px;
 }
 
-#section-story img {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 /* styling of headings and logo */
 
 h1,
@@ -291,7 +285,7 @@ div.desc {
     }
 }
 
-/* Contact form */
+/* contact form */
 
 #contact-form {
     font-family: Roboto, sans-serif;
@@ -303,7 +297,7 @@ div.desc {
     color: white;
 }
 
-/* css styling of input, select and textarea */
+/* css styling of input, select and textarea with inspiration from W3Schools */
 input[type=text],
 input[type=email],
 select,
@@ -329,7 +323,7 @@ textarea {
 }
 
 
-/* For medium screen sizes */
+/* For medium screen sizes - code borrowed from the Love Running Project and slightly edited */
 @media screen and (max-width: 1200px) {
 
     #cover-text {
