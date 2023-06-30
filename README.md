@@ -1,18 +1,18 @@
 # The Arctic Ballon Expedition - A History Project
 
-## Summary
-
 This website is intended to provide summarized overall information about the lesser-known Swedish polar expedition in 1987 for those who are into odd history facts. The intention is to be able to provide a simple website with sharp contrasts, short information that creates curiosity, simple navigation with few pages and a gallery with the images that were found upon discovery of expedition 33 years after the men from the expedition are presumed to have disappeared without a trace.
 
 ![Mockup](docs/readme_images/mockupp.png)
 
-### Header
+## Header
 
-At the top we find the most famous image from the Polar Expedition - a crashed hot air balloon in black and white. The idea with the picture is to create curiosity but also to signal that this website is dedicated to something historical.
+-At the top we find the most famous image from the Polar Expedition - a crashed hot air balloon to create curiosity but also to signal that this website is dedicated to something historical.
+
+- Contains the navigation bar code.
 
 ![Header](docs/readme_images/header.png)
 
-### Navigation Bar
+## Navigation Bar
 
 The navigation can be found at the top right of the logo with links to three different pages. The menu is simply constructed with a hover effect to clearly show which button you have the mouse over.
 
@@ -20,31 +20,43 @@ All pages have the same consistent theme, which makes it easy to see that only t
 
 ![Nav Bar](docs/readme_images/navbar.png)
 
-### Main
+## Main - Landing Page
 
-In main we find content that briefly summarizes the polar expedition with headlines with short information to spark interest and a timeline. The text contains general information about the idea, people and when the events took place. The headings are cast in the same narrative form to maintain a common thread.
+- Brief short saummarized facts about the polar expedition to spark interest and a timeline.
+- The text contains general information about the idea, people and when the events took place.
+- The headings and paragraph are styled the same throughout the page to create a common thread.
+- Image is used in the middle to create a inviting index page.
+- The basic styling and code has been used from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main/04-creating-the-club-ethos/05-club-ethos-icons) project.
 
 ![Main](docs/readme_images/landingpage.png)
 
-### The Footer
+## The Footer
 
 In the footer we mainly find links to more detailed information such as Wikipedia, but also to various pages with more images from reliable sources. The icons are meant to arouse curiosity and give a nice visual impression. All links open in a new window.
 
 ![Footer](docs/readme_images/footer.png)
 
-### The Expedition
+# Pages and Features
+
+## Favicon
+
+- Used an icon from [Icon 8]](https://icons8.com/icons)
+- Favicon was created through [Favicon Converter](https://favicon.io/favicon-converter/)
+- The same favicon is used throughout every single page to make it easier for the user to recognize the website if they have other tabs open.
+
+## The Expedition
 
 This page is for the user to be able to read more detailed information about the expedition in compact form. To break up long paragraphs, images are used to give a more relaxed visual impression.
 
 ![The Expedition](docs/readme_images/story.png)
 
-### The Gallery
+## The Gallery
 
 The gallery consists of a total of four images in a responsive design. The look is meant to give a retro feel with the polaroid frame and descriptive text. The images are also lined up according to the timeline with the first images showing the beginning of the project and the last image showing how the three men were discovered 33 years later after having gone missing.
 
 ![Gallery](docs/readme_images/gallery.png)
 
-### Contact Form
+## Contact Form
 
 The Contact page is intended to give the user an opportunity to send an email with feedback, questions or concerns about the website's content. The form is simple and direct.
 
@@ -57,14 +69,14 @@ When posting a message the user will automatically been sent to a different page
 # Features to implement
 
 1. Develop the CSS for the gallery and add more images.
-2. Add proper function to the contact form so it's possible to use.
+2. Add Javascript to the contact form.
 3. Improve responsiveness even further.
 
 # Testing
 
-## Live Server, Dev Tools and Mockup
-
-Throughout the entire project, I have by using the extension "Live server" and Dev tools to see how the website takes shape and how the code expresses itself, partly in different browsers such as Chrome, IE Edge and Firefox, but also for different screen sizes. In addition to this, I have also used Mockup to get a clearer picture of how the website looks on different devices.
+- The website has been tested using the extension "Live Server" throughout the project.
+- Dev Tools has been used to check the responsiveness in different screen sizes.
+- The project has been tested in different browsers such as Chrome, IE Edge, Firefox, Safari and Opera. The only one not being able to load the page (and completely timed out) was Opera.
 
 ## Positioning
 
